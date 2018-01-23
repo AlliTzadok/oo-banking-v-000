@@ -9,5 +9,5 @@ class BankAccount
     @status = "open"
   end
 
-  def valid
+  
 end
