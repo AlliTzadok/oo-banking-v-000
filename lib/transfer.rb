@@ -1,5 +1,6 @@
 class Transfer
 
+  attr_accessor :sender, :receiver, :status, :amount
 #acts as a space for a transaction between two instances of the bank account class
 def initialize(sender, receiver, amount)
   @sender = sender
