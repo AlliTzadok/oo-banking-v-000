@@ -1,9 +1,11 @@
 class Transfer
 
 #acts as a space for a transaction between two instances of the bank account class
-def initialize(sender, receiver)
+def initialize(sender, receiver, amount)
   @sender = sender
   @receiver = receiver
+  @status = "pending"
+  @amount = amount
 
 end
 
