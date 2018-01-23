@@ -1,8 +1,10 @@
 class Transfer
 
 #acts as a space for a transaction between two instances of the bank account class
-def initialize(transfer)
-  @transfer = transfer
+def initialize(sender, receiver)
+  @sender = sender
+  @receiver = receiver
+
 end
 
 #will check the validity of the account number
