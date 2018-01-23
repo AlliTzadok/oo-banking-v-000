@@ -6,7 +6,6 @@ def initialize(sender, receiver, amount)
   @receiver = receiver
   @status = "pending"
   @amount = amount
-
 end
 
 #will check the validity of the account number
