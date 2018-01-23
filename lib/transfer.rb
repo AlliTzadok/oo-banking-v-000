@@ -12,7 +12,7 @@ end
 
 #will check the validity of the account number
 def valid?
-  
+
 end
 
 #will verify has enough funds to Transfer
