@@ -10,6 +10,7 @@ def initialize(sender, receiver, amount)
 end
 
 #will check the validity of the account number
+def valid?
 #will verify has enough funds to Transfer
 #will reject the transfer if they don't have enough funds
 
