@@ -13,6 +13,7 @@ end
 
 #will check the validity of the account number
 def valid?
+  sender.valid? && receiver.valid?
 
 end
 
