@@ -28,6 +28,9 @@ def execute_transaction
   end
 end
 
+def reject_transfer
+end
+
 
 #status can change to completed or rejected
 #completed transfer can be reversed and status changed to reversed
