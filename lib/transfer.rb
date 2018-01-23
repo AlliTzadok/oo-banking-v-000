@@ -33,6 +33,13 @@ def reject_transfer
   "Transaction rejected. Please check your account balance."
 end
 
+def reverse_transfer
+  if self.status == "complete"
+    sender.balance += amount
+    receiver.balance -= amount
+  end
+end
+
 
 #status can change to completed or rejected
 #completed transfer can be reversed and status changed to reversed
