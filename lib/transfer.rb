@@ -12,8 +12,12 @@ end
 
 #will check the validity of the account number
 def valid?
+  
+end
+
 #will verify has enough funds to Transfer
 #will reject the transfer if they don't have enough funds
+
 
 
 #status can change to completed or rejected
